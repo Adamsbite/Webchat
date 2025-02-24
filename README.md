@@ -47,14 +47,14 @@ The primary goal of this Proof of Concept (PoC) is to **demonstrate the capabili
 ## Installation & Setup
 ### 1. Clone the Repository
 ```bash
-  git clone https://github.com/your-repo/cudos-ai-chatbot.git
+  git clone https://github.com/Webapp/cudos-ai-chatbot.git
   cd cudos-ai-chatbot
 ```
 
 ### 2. Install Dependencies
 ```bash
   npm install   # For frontend dependencies
-  pip install -r requirements.txt   # For backend (if using Python)
+  pip install -r requirements.txt   # For backend 
 ```
 
 ### 3. Environment Variables
@@ -80,23 +80,6 @@ DATABASE_URL=your_database_connection
 4. **Submit a Pull Request (PR)** and wait for review.
 
 ---
-
-## Roadmap
-### Week 1: Infrastructure Setup & UI Design
-- Set up CUDOS Compute resources.
-- Design and implement UI mockups.
-
-### Week 2: AI Model Integration & API Development
-- Deploy and integrate the DeepSeek AI model.
-- Build backend APIs for chatbot interaction.
-
-### Week 3: Testing & Enhancements
-- Implement fallback response mechanisms.
-- Conduct performance and usability testing.
-
-### Week 4: Deployment & Final Refinements
-- Deploy to CUDOS subdomain.
-- Final bug fixes, optimizations, and documentation.
 
 ---
 
