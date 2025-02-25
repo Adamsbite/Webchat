@@ -9,7 +9,7 @@ The primary goal of this Proof of Concept (PoC) is to **demonstrate the capabili
 
 ## Features
 ### ✅ Deployment & Infrastructure
-- The chatbot is hosted on a **CUDOS subdomain** with a fully functional and user-friendly interface.
+- The chatbot is hosted on a ** ** with a fully functional and user-friendly interface.
 - The AI model is deployed on **CUDOS Intercloud Compute** to leverage scalable and efficient cloud resources.
 
 ### ✅ Chatbot Capabilities
@@ -60,15 +60,15 @@ The primary goal of this Proof of Concept (PoC) is to **demonstrate the capabili
 ### 3. Environment Variables
 Create a `.env` file and add the necessary configuration:
 ```env
-CUDOS_API_KEY=your_cudos_api_key
+CUDOS_API_KEY=
 AI_MODEL_PATH=/path/to/deepseek/model
-DATABASE_URL=your_database_connection
+DATABASE_URL=
 ```
 
 ### 4. Run the Application
 ```bash
-  npm run dev   # Start frontend
-  python app.py  # Start backend (if using Python)
+  npm run dev   
+  python app.py  
 ```
 
 ---
